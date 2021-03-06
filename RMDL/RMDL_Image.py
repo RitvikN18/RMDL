@@ -107,7 +107,7 @@ def Image_Classification(x_train, y_train, x_test, y_test, shape, batch_size=128
     if len(x_train) != len(y_train):
         raise ValueError('shape of x_train and y_train must be equal'
                          'The x_train has ' + str(len(x_train)) +
-                         'The x_train has' +
+                         'The y_train has' +
                          str(len(y_train)))
 
     if len(x_test) != len(y_test):
